@@ -1,0 +1,112 @@
+body{
+    margin-top: 50px;
+    font-size: 24px;
+}
+/*This body style using 2 type of css 
+1. margin-top create space on table 
+2.font-size 24 equal to using body
+ inside all tags are table,td,tr,th*/
+
+table,th,td{
+    border-bottom: 2px solid purple;
+    border-collapse: collapse;
+    padding: 5px;
+    /*
+    This above css on table,th,td all are common this under css
+    border-bottom on purple color solid 2px
+    border-collapse is using collapration on lines make 
+    a good view.
+    padding: 5px; using common space on internel data
+    */
+}
+table{
+    width: 100%;
+    height: auto;
+    /*
+    width is a mean to surface on our website creation
+    now our take 100% of width take full screen on every website
+    and it's percentage(%) using to auto correct on every screen 
+    px example for a phone, pads, laptops, pc all are modifing this 
+    px automaticaly this is most advantage using a %
+    
+    height is coverd to auto collapration on width %*/
+}
+tr,td,th{
+    text-align: center;
+    /*this tr,td,th it's all are text align to center line use this css*/
+}
+td{
+    height: 50px;
+    vertical-align: bottom;
+    /* This height create a top space in 50px in this td
+    and the vertical you know the y axis direction on td align to bottom*/
+}
+tr:nth-child(even){
+    background-color:grey;
+    color: aliceblue; 
+    /*tr:nth-child(even):The even you may know are the order on 2,4,6,8,9
+    these are direction to the operation on thetr:nth-child(even)
+    the operation css in the background-color on gray
+     and the text color on  aliceblue like a white color*/
+}
+
+tr:nth-child(even):hover{
+    background-color: palevioletred;
+    color: #000;
+    /*
+    hover: hover is the mouse over on the objects that time is make 
+    attract view on website to see our viewers
+
+    now our css hover is our mouse moving this background-color 
+    and color are changed to the defaluts
+
+    The hover operation depand to this tr:nth-child(even)
+    */
+}
+tr:nth-child(odd){
+    background-color:lawngreen;
+    color: aliceblue; 
+    
+    /*tr:nth-child(odd):The even you may know are the order on 1,3,5,6,7
+    these are direction to the operation on thetr:nth-child(odd)
+    the operation css in the background-color on lawngreen
+     and the text color on  aliceblue like a white color*/
+}
+tr:nth-child(odd):hover{
+    background-color: aqua;
+    color: green;
+    /*
+    hover: hover is the mouse over on the objects that time is make 
+    attract view on website to see our viewers
+
+    now our css hover is our mouse moving this background-color:aqua;
+    and color:green; are changed to the defaluts
+
+    The hover operation depand to this tr:nth-child(odd)
+    */
+}
+table:hover{
+    background-color: #000;
+    color: white;
+    border: 2px solid black;
+    /*
+    table:hover: hover is the mouse over on the objects that time is make 
+    attract view on website to see our viewers
+
+    now our css hover is our mouse moving this background-color:black;
+    and color:white; are changed to the defaluts & border 2px solid black to 
+    over all table outlook
+    
+
+    The hover operation depand to this table:hover
+    */
+}
+
+
+/*
+Disclimer!!:I am also learn the css so any one have the dout just feel free to ask me i try my level best for yours!!!
+
+AnyWay Happy Learning And Don'f Forget Education Make Brilliant EveryBody, so be learn something your own interst!!!
+
+See You Soon!!!  AND  Keep up the great work and happy coding! 🌟📚
+*/

@@ -1,0 +1,66 @@
+h1{
+    color: yellowgreen;
+    background-color: black;
+    text-align: center;
+    /*
+    color: yellowgreen;this css use on our text color
+    background-color: black;this css use on our text background color
+    text-align: center;this css use on our text is aligned center line
+
+    the same css property  are using our below our css codes any new line i am explianed that place
+    */
+}
+h3{
+    color: #fff;
+    text-align:right ;/*this text align on right of our website*/
+    background-color: black;
+}
+p{
+    color: brown;
+    line-height: 28px;/*this line height on mean the one line to over the next line gap on this 28px */
+    background-color: burlywood;
+    text-shadow: .3px .1px black/*This is use on our text thickness and depth design mixed this 
+    black color and brown color also create this effect on wep pages*/
+}
+.Readmore{
+    color: cadetblue;
+    background-color: yellow;
+    width: 12%;/*this is the surface on our button*/
+    border: 5px solid;/*this is the button border design of outlook on 
+    thick 5px this box line use the same text color*/
+    padding: 8px;/*the button inside space on this 8px*/
+    border-radius: 17px;/*this is use on our button  the rounded corners of radius*/
+}
+#p{
+    color: #000;
+    background-color: palevioletred;
+    text-decoration: underline;/*this used on our website text have a below line of use this property
+    it's too attract our clients on this decoration*/
+}
+span{
+    text-decoration: line-through;/*this most use on the shoping website offers and others are the to do list 
+    complete indication and some website use on this is a delete the content indicatiors and last one thing 
+    special design purpose also use this text-decoration: line-through;*/
+}
+a{
+    text-decoration: none;/*this is the hyperlink tag default have the link text undeline but now this 
+    text-decoration: none using process stop the line an  hyperlink are the normal text look*/
+    color: red;
+    text-transform: uppercase;/*this is the text on  hyperlink all are transform capital lettes */
+}
+div{
+    text-transform: capitalize;/*this is the div inside all text or transform to the every first letter 
+    are the capital letter*/
+    text-indent: 28px;/*it's very beauty of our website this useful for the every starting paragraph on 
+    some left space free to use this css property*/
+    letter-spacing: 1.50px;/*this is the every letter  have some gap use that time on this property*/
+    word-spacing: 3px;/*this is the every word  have some gap use that time on this property*/
+}
+
+/*
+Disclimer!!:I am also learn the css so any one have the dout just feel free to ask me i try my level best for yours!!!
+
+AnyWay Happy Learning And Don'f Forget Education Make Brilliant EveryBody, so be learn something your own interst!!!
+
+See You Soon!!!  AND  Keep up the great work and happy coding! 🌟📚
+*/
